@@ -22,7 +22,7 @@ public void launchBrowser() {
 	// to code wait time to load the web site fully
 	driver.manage().timeouts().implicitlyWait(30, TimeUnit.SECONDS);
 }
-
+// create a new method
 public void closeBrowser() {
 	driver.close();
 }
