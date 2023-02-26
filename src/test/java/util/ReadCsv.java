@@ -15,7 +15,7 @@ public class ReadCsv {
 		rc.readCredentials("paul");
 
 	}
-
+// create readCredentials
 	public void readCredentials(String customer) {
 		String line;
 		String delimitter = ",";
