@@ -18,6 +18,8 @@ public class dropDown {
 		driver.get("https://the-internet.herokuapp.com/dropdown");
 		driver.manage().window().maximize();
 		driver.manage().timeouts().implicitlyWait(30, TimeUnit.SECONDS);
+		
+		
 		WebElement dropdown = driver.findElement(By.xpath("//select[@id='dropdown']"));
 		Select s = new Select(dropdown);
 		s.selectByIndex(2);
